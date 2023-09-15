@@ -8,5 +8,6 @@ import (
 
 func main() {
 	soma := internal.Calc(10, 10)
+	fmt.Println("Calculo realizado com sucesso")
 	fmt.Printf("A soma é %d", soma)
 }
