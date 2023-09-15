@@ -2,9 +2,9 @@
 
 ### Repositórios
 
-Projeto: https://github.com/codeedu/fc2.0-ci-go
-GitHub Actions: https://github.com/actions/checkout
-Documentation: https://github.com/marketplace/actions/build-and-push-docker-images
+- Projeto: https://github.com/codeedu/fc2.0-ci-go
+- GitHub Actions: https://github.com/actions/checkout
+- Documentation: https://github.com/marketplace/actions/build-and-push-docker-images
 
 
 
