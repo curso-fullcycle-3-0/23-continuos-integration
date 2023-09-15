@@ -1,6 +1,13 @@
 # 23 - Integração continua ou CI(continuos ingregration)
 
+### Repositório
+
+https://github.com/codeedu/fc2.0-ci-go
+
+## Sumário
+
 1. [o que é CI](#o-que-é-ci)
+2. [Criando um software exemplo](#criando-um-software-exemplo)
 
 ## o que é CI
 
@@ -45,3 +52,5 @@ Ele utiliza os principais eventos gerados pelo GitHub para que possamos executar
 É ação que de fato será executada em um dos Steps de um Job em um Workflow.
 
 Ela pode ser cirada do zero ou ser reutilizada de actions pre-existentes.
+
+### Criando um software exemplo
