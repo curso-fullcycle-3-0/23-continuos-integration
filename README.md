@@ -1,8 +1,11 @@
 # 23 - Integração continua ou CI(continuos ingregration)
 
-### Repositório
+### Repositórios
 
-https://github.com/codeedu/fc2.0-ci-go
+Projeto: https://github.com/codeedu/fc2.0-ci-go
+GitHub Actions: https://github.com/actions/checkout
+
+
 
 ## Sumário
 

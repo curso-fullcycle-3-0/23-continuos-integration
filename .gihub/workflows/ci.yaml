@@ -1,0 +1,12 @@
+name: ci-go-lang-workflow
+on: [push]
+jobs:
+  check-application:
+    runs-on: ubuntu-lates
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-go@v2
+        with:
+          go-version: 1.19
+      - run: go test
+      - run: go run cmd/main.go
