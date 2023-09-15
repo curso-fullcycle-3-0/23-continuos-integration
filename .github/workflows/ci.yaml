@@ -31,4 +31,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: false
-          tags: https://github.com/curso-fullcycle-3-0:latest
+          tags: github.com/curso-fullcycle-3-0:latest
