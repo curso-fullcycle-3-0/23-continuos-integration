@@ -19,4 +19,16 @@ jobs:
       - run: go run cmd/main.go
       - run: go test -coverprofile=coverage.out ./...
       - run: go tool cover -func=coverage.out
-      - run: go tool cover -html=coverage.out -o coverage.html
+
+      - name: Set up QEMU
+        uses: docker/setup-qemu-action@v3
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build and Push
+        id: docker_build
+        uses: docker/build-push-action@v5
+        with:
+          push: false
+          tags: github.com/curso-fullcycle-3-0:latest
